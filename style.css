@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ecf0f1;
+  color: #506274;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.7rem;
+  color: #20333f;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #26496d;
+  font-weight: 500;
+}
+
+.form-section, .summary-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  background-color: #f8f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #223441;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #193f57;
+}
+
+.summary {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.summary p {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.summary h3 {
+  margin-top: 20px;
+  color: #235e3c;
+  font-size: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clean-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 39, 48); 
+  color: #fff;            
+  padding: 10px 20px;     
+  border: none;
+  width: 10rem;           
+  border-radius: 6px;    
+  cursor: pointer;        
+}
+
+#clean-total:hover {
+  background-color: #223441;
+
+}
+
